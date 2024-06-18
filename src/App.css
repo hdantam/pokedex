@@ -1,0 +1,28 @@
+.header {
+  text-align: center;
+  background-color: #d1848e;
+}
+
+.App {
+  text-align: center;
+  background-color: rgb(252, 231, 231);
+}
+
+.AppContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.AppContainer > div {
+  flex: 10%;
+  box-shadow: 0 0 0 1px black;
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+}
+
+.teamBox {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  padding: 10px;
+}
